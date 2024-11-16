@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_custom_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom list view"
+        android:backgroundTint="#227373"
+
+        android:textSize="22sp"/>
+
+
+    <Button
+        android:id="@+id/btn_expand_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expand list view"
+        android:layout_margin="12dp"
+        android:backgroundTint="#277171"
+
+        android:textSize="22sp">
+
+    </Button>
+
+
+</LinearLayout>

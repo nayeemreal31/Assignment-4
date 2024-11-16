@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f4f4f4">
+
+    <TextView
+        android:id="@+id/tv_expand_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expandable List of Football Clubs"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="#227373"
+        android:textColor="#ffffff" />
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#277171"
+        android:dividerHeight="1dp"
+
+        android:padding="8dp"
+        android:background="#ffffff" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Custom list and expand list</string>
+
+    <string-array name="Football_clubs">
+        <item>Real Madrid</item>
+        <item> Manchester United</item>
+
+        <item>Barcelone</item>
+        <item> Bayern Munich</item>
+
+        <item>Chelsea</item>
+        <item> Liverpool</item>
+
+        <item>Dortmund</item>
+        <item> PSG</item>
+
+        <item>AC Milan</item>
+        <item>Juventus</item>
+
+
+    </string-array>
+    <string-array name="club_descriptions">
+        <item>Real Madrid is the biggest club in the world.</item>
+        <item>Manchester United is known as the Red Devils.</item>
+        <item>Barcelona is famous for its tiki-taka playing style.</item>
+        <item>Bayern Munich dominates German football.</item>
+        <item>Chelsea is based in London and known as the Blues.</item>
+        <item>Liverpool is known for its passionate fans and Anfield.</item>
+        <item>Dortmund is famous for its yellow wall of fans.</item>
+        <item>PSG is a powerhouse in French football.</item>
+        <item>AC Milan has a rich history in Serie A and the Champions League.</item>
+        <item>Juventus is known for its iconic black-and-white stripes.</item>
+    </string-array>
+
+
+
+
+</resources>
