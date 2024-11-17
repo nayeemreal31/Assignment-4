@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#F7F4F8"
     tools:context=".MainActivity">
 
     <Button
@@ -14,8 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Custom list view"
-        android:backgroundTint="#227373"
-
+        android:backgroundTint="#D11155"
+android:textColor="@color/white"
         android:textSize="22sp"/>
 
 
@@ -25,7 +26,8 @@
         android:layout_height="wrap_content"
         android:text="Expand list view"
         android:layout_margin="12dp"
-        android:backgroundTint="#277171"
+        android:textColor="@color/white"
+        android:backgroundTint="#D70952"
 
         android:textSize="22sp">
 
